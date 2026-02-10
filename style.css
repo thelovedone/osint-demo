@@ -2,14 +2,13 @@ body {
   background: #0b0f14;
   color: #d1f7ff;
   font-family: "Courier New", monospace;
-  margin: 0;
   padding: 2rem;
+  margin: 0;
 }
 
 h1 {
   color: #00ff9c;
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
 
 p {
@@ -17,16 +16,23 @@ p {
   font-size: 0.9rem;
 }
 
-#output {
+.section {
   margin-top: 1.5rem;
-  background: #05080d;
   border: 1px solid #00ff9c33;
+  background: #05080d;
   padding: 1rem;
   border-radius: 6px;
 }
 
+.section h2 {
+  color: #00ff9c;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
 .entry {
-  padding: 0.4rem 0;
+  font-size: 0.85rem;
+  padding: 0.3rem 0;
   border-bottom: 1px dashed #00ff9c22;
 }
 
@@ -40,6 +46,6 @@ strong {
 
 .footer {
   margin-top: 2rem;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #6b7c93;
 }
